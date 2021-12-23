@@ -1,0 +1,4 @@
+Clown was my first robot made in python, the code is a bit dirty but for the next bot I will try to clean the code more>)
+merry christmas
+
+bot created by Pawww#0743 , server discord: https://discord.gg/UuEbaNJdQp
