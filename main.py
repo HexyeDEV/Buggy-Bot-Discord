@@ -25,7 +25,7 @@ async def on_ready():
             name="⚙ Creator by Paw#0743"))
         await asyncio.sleep(15)
         await bot.change_presence(activity=discord.Game(
-            name="🛠 Clown created to help users"))
+            name="🛠 Buggy created to help users"))
         await asyncio.sleep(15)
         await bot.change_presence(activity=discord.Game(name="😴 sleeping..."))
         await asyncio.sleep(15)
@@ -35,7 +35,7 @@ async def on_ready():
 @bot.command()
 async def help(ctx):
     embed = discord.Embed(
-        title="Comandos de Clown",
+        title="Comandos de Buggy",
         description="",
         timestamp=datetime.datetime.utcnow(),
         color=discord.Color.blue())
@@ -58,7 +58,7 @@ async def help(ctx):
 @bot.command()
 async def mod(message):
     embed = discord.Embed(
-        title="Comandos de Clown",
+        title="Comandos de Buggy",
         description="",
         color=discord.Color.blue())
     embed.add_field(name="Moderador", value="Ayuda sobre los comandos de moderadorﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠ", inline="False")
@@ -84,7 +84,7 @@ async def mod(message):
 @bot.command()
 async def fun(message):
     embed = discord.Embed(
-        title="Comandos de Clown",
+        title="Comandos de Buggy",
         description="",
         color=discord.Color.blue())
     embed.add_field(name="Diversion", value="Ayuda sobre los comandos de diversionﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠ", inline="False")
@@ -110,7 +110,7 @@ async def fun(message):
 @bot.command()
 async def romance(message):
     embed = discord.Embed(
-        title="Comandos de Clown",
+        title="Comandos de Buggy",
         description="",
         color=discord.Color.blue())
     embed.add_field(name="Romance", value="Ayuda sobre los comandos de Romanceﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠ", inline="False")
@@ -145,8 +145,8 @@ async def clear(ctx, amount=0):
 async def nuke(ctx, amount=12000):
     await ctx.channel.purge(limit=amount + 12000)
     embed = discord.Embed(
-        title="Clown Bot",
-        description="Clown, exploto una bomba nuclear por aciddente",
+        title="Buggy Bot",
+        description="Buggy, exploto una bomba nuclear por aciddente",
         timestamp=datetime.datetime.utcnow(),
         color=discord.Color.purple())
     embed.add_field(name="Se han eliminado toda la conversacion del canal",
